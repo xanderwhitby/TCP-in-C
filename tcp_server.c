@@ -9,7 +9,7 @@
 
 // for logging
 
-void logging(){
+void main(){
     FILE *fptr;
 
     fptr = fopen("logging.txt", "w");
