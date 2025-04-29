@@ -8,8 +8,12 @@
 
 
 // for logging
+int main(){
+    //for main server
 
-void main(){
+}
+
+void logging(){
     FILE *fptr;
 
     fptr = fopen("logging.txt", "w");
