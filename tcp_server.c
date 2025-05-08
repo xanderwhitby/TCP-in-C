@@ -7,17 +7,3 @@
 #define PORT 8080
 
 
-// for logging
-int main(){
-    //for main server
-
-}
-
-void logging(){
-    FILE *fptr;
-
-    fptr = fopen("logging.txt", "w");
-
-    fclose(fptr);
-}
-
