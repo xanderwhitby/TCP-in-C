@@ -7,6 +7,14 @@
 #define PORT 8080
 
 
+void makeNode(){
+    socket();
+    bind();
+    listen();
+    accept();
+    close();
+
+}
 
 
 int main(){
